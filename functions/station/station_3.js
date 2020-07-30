@@ -27,13 +27,10 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 // Group 1
-// const lineGroupId = 'C07748b108c8f952ef59957157aa5dd9a'
-// const lineToken = 'Bearer kQnbHZDDKe1TiJ3TChlBmDSlaAHxg7oB2Rxwg6x3NY5DDGdSZteZcYPWoGWyCoWFG7Mu7IkmLTa5Gjg5EEcRf+qkmsd0JlDSaoxGDDqodfL0EYxLqEykRcz6ZeS7jniWxDdLmmcdL3edF31WnAz77wdB04t89/1O/w1cDnyilFU='
+const lineGroupId = 'xxxx'
+const lineToken = 'Bearer'
 
-// Group 3
-var lineGroupId = 'Ca48561a4942de12d4e51222aa5af3752'
-var lineToken = 'Bearer JTvbw3JzKbjfkKc0P2ueIMetztAvd/ZnJm3+d25SqewGj4T4R8/7Vpl6NXsEcGjCILDWeyJ4Q1PaM9WNXIF8lcE2zxOV2EGqVlmMpQgxJnflrMErnXmvcY5liqu0hV2tHWNs6N84PKyFfROIfo8CLQdB04t89/1O/w1cDnyilFU='
-
+ 
 
 module.exports = {
 	async station_3() {
