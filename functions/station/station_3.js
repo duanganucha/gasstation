@@ -36,9 +36,7 @@ module.exports = {
 	async station_3() {
 
 		console.log('--------------------------------station_3 runing')
-		// delivery();
-		// summary_23_59();
-		// alarmStatusLow();
+	 
 
 		var current_time = getTimeMoment()
 		var time_minute = getTimeMomentMinute();
@@ -69,8 +67,7 @@ module.exports = {
 			alarmStatusWater()
 		}
 
-		//เตือนสถานะ 3
-
+ 
 
 	}
 }
